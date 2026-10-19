@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071426">
+<meta name="description" content="SKYNET KENYA NETWORK — affordable Wi-Fi hotspot and internet packages.">
+<title>SKYNET KENYA NETWORK | Fast, Reliable Wi-Fi</title>
+<style>
+:root{--navy:#071426;--navy2:#0d2039;--blue:#1688ff;--cyan:#48d9ff;--silver:#e9f1fa;--muted:#a8bad0;--green:#35d39a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#071426;color:#f5f8fc;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(5,16,31,.9);backdrop-filter:blur(14px);border-bottom:1px solid #ffffff15}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.7px}.logo{width:43px;height:43px;border:1px solid #63d8ff;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,#173d66,#071426);box-shadow:0 0 24px #1688ff35}.logo svg{width:29px}.brand small{display:block;color:#8edfff;font-size:10px;letter-spacing:2px;font-weight:700}.links{display:flex;gap:25px;align-items:center;color:#c7d6e8;font-size:14px}.links a:hover{color:var(--cyan)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:12px;background:linear-gradient(100deg,#1688ff,#37c8f5);font-weight:800;color:#031426;border:0;cursor:pointer;box-shadow:0 8px 26px #1688ff30;transition:.2s}.btn:hover{filter:brightness(1.08)}.btn.secondary{background:#ffffff0b;color:#eaf5ff;border:1px solid #ffffff26;box-shadow:none}.btn.secondary:hover{background:#ffffff15}.menu{display:none;background:none;color:white;border:1px solid #ffffff30;border-radius:9px;padding:8px}
+.hero{padding:82px 0 70px;overflow:hidden;position:relative;background:radial-gradient(ellipse at 78% 30%,#0b5b9a55,transparent 43%),linear-gradient(180deg,#08172a,#071426)}.hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.13;background-image:linear-gradient(#4ccaff22 1px,transparent 1px),linear-gradient(90deg,#4ccaff22 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,black,transparent)}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:48px;position:relative;z-index:1}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #49d5ff55;background:#1688ff12;border-radius:99px;padding:7px 12px;color:#9ce9ff;font-size:12px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--green);border-radius:50%;box-shadow:0 0 10px var(--green)}h1{font-size:clamp(40px,5.7vw,69px);line-height:1.03;letter-spacing:-2.5px;margin:22px 0 20px}h1 span{background:linear-gradient(90deg,#f7fbff,#61d9ff);color:transparent;background-clip:text}.hero p{font-size:17px;color:#b6c7da;max-width:560px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.mini-points{display:flex;gap:22px;flex-wrap:wrap;color:#c1d1e2;font-size:13px}.mini-points span{display:flex;align-items:center;gap:7px}.check{color:var(--green);font-weight:900}.network-art{min-height:355px;position:relative;display:grid;place-items:center}.orbit{position:absolute;border:1px solid #39bfff38;border-radius:50%;width:330px;height:330px;animation:spin 28s linear infinite}.orbit.two{width:255px;height:255px;border-style:dashed;animation-direction:reverse;animation-duration:36s}.orbit:before,.orbit:after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:#55dcff;box-shadow:0 0 20px #55dcff}.orbit:before{top:35px;left:45px}.orbit:after{bottom:50px;right:25px}.router-card{position:relative;width:min(300px,90%);padding:27px;border:1px solid #4bcfff55;background:linear-gradient(150deg,#102a48,#081729);border-radius:24px;box-shadow:0 15px 40px #0009;text-align:center}.wifi-icon{width:56px;height:56px;margin:0 auto 12px;border-radius:18px;background:linear-gradient(135deg,#1688ff,#00f0ff);display:grid;place-items:center}.wifi-icon svg{width:34px}.signal{display:flex;justify-content:center;gap:5px;margin-top:16px}.signal i{width:5px;height:16px;background:#35d39a;border-radius:4px;display:inline-block}
+.stats{border-top:1px solid #ffffff13;border-bottom:1px solid #ffffff13;background:#0a1b30}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:22px 0}.stat{text-align:center;border-right:1px solid #ffffff18}.stat:last-child{border:0}.stat strong{font-size:23px;display:block}.stat span{font-size:12px;color:#a9bdd3}
+section{padding:78px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}.kicker{color:var(--cyan);font-size:12px;letter-spacing:2px;font-weight:900;text-transform:uppercase}.section-head h2{font-size:clamp(29px,4vw,43px);line-height:1.15;margin:10px 0}.section-head p{color:#aabdd1;margin:0}.packages{background:linear-gradient(180deg,#071426,#0a1b30)}.package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.package{border:1px solid #ffffff1b;background:linear-gradient(150deg,#102742,#0b1a2d);border-radius:20px;padding:25px;position:relative;transition:.2s}.package:hover{transform:translateY(-4px);border-color:#4bcfff77}.package.featured{border-color:#2eafff;box-shadow:0 0 32px #1688ff1b}.tag{display:inline-block;font-size:10px;letter-spacing:1px;font-weight:900;text-transform:uppercase;padding:5px 9px;border-radius:99px;background:#1688ff20;color:#8edfff}.package h3{font-size:19px;margin:14px 0 2px}.price{font-size:37px;font-weight:900;letter-spacing:-1.5px}.price small{font-size:13px;font-weight:500;letter-spacing:0;color:#a9bed3}.package p{color:#aabdd1;font-size:13px;min-height:42px}.features{list-style:none;padding:0;margin:20px 0 24px;color:#d2e0ed;font-size:13px}.features li{padding:7px 0;border-bottom:1px solid #ffffff0b}.features li:before{content:"✓";color:var(--green);font-weight:900;margin-right:9px}.package .btn{width:100%}.notice{text-align:center;color:#819ab4;font-size:12px;margin:22px 0 0}
+.features-section{background:#08172a}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{padding:25px;border:1px solid #ffffff14;border-radius:18px;background:#ffffff04}.feature-icon{width:45px;height:45px;display:grid;place-items:center;border-radius:13px;background:#1688ff1c;color:#58d9ff;font-size:23px}.feature h3{margin:15px 0 6px;font-size:17px}.feature p{margin:0;color:#aabdd1;font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:step}.step{padding:22px;border-left:2px solid #1688ff55}.step b{color:#55d9ff;font-size:12px;letter-spacing:1px}.step h3{margin:7px 0}.step p{color:#aabdd1;font-size:14px;margin:0}
+.cta{padding:0 0 78px}.cta-box{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:36px;border:1px solid #35bfff55;border-radius:24px;background:radial-gradient(ellipse at right,#12619a55,transparent 60%),#0d2138}.cta-box h2{font-size:clamp(26px,4vw,38px);margin:0 0 6px}.cta-box p{margin:0;color:#aec3d8}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}.contact-info{border:1px solid #ffffff18;background:#0c2037;border-radius:20px;padding:26px}.contact-info h3{margin-top:0}.contact-line{padding:13px 0;border-bottom:1px solid #ffffff12;color:#bfd0e2}.contact-line strong{display:block;color:#fff}.contact-form{padding:26px;border:1px solid #ffffff18;border-radius:20px;background:#0c2037}.field{margin-bottom:15px}.field label{display:block;font-size:12px;color:#bdd0e3;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;padding:12px 13px;border:1px solid #ffffff24;border-radius:10px;background:#071426;color:#fff;font:inherit;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#38c6ff}.field textarea{min-height:95px;resize:vertical}.contact-form .btn{width:100%}.small-note{font-size:11px;color:#829bb5;margin:12px 0 0}
+footer{border-top:1px solid #ffffff16;padding:25px 0;color:#91a7be;font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-brand{color:#eef7ff;font-weight:900;letter-spacing:1px}
+
+/* Enhanced Modal and Voucher Styles */
+.modal-backdrop{display:none;position:fixed;inset:0;z-index:50;background:#000c;backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:20px}.modal-backdrop.open{display:flex}.modal{width:min(480px,100%);max-height:90vh;overflow-y:auto;background:#0c2037;border:1px solid #4bcfff66;border-radius:20px;padding:25px;box-shadow:0 25px 80px #000c}.modal-head{display:flex;justify-content:space-between;align-items:center}.close{background:none;border:0;color:#fff;font-size:25px;cursor:pointer;padding:0 5px}.toast{font-size:12px;color:#61e7b4;min-height:18px}
+.voucher-card{background:linear-gradient(135deg,#0a2542,#071526);border:1px solid #35d39a66;border-radius:14px;padding:16px;margin:15px 0;text-align:center;box-shadow:0 0 25px #35d39a15}
+.voucher-label{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#8edfff;font-weight:800}
+.voucher-code{font-family:monospace,Consolas,sans-serif;font-size:23px;font-weight:900;letter-spacing:2px;color:#35d39a;margin:10px 0;background:#05101d;padding:10px 14px;border-radius:8px;border:1px dashed #35d39a88;user-select:all}
+.badge-status{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;padding:5px 12px;border-radius:99px;margin-bottom:8px}
+.badge-pending{background:#ffaa001f;color:#ffc107;border:1px solid #ffaa0044}
+.badge-success{background:#35d39a1f;color:#35d39a;border:1px solid #35d39a55}
+.badge-error{background:#ff4d4f1f;color:#ff7875;border:1px solid #ff4d4f55}
+.pulse-spinner{display:inline-block;width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
+.sim-box{margin-top:14px;padding-top:12px;border-top:1px dashed #ffffff18;display:flex;flex-direction:column;gap:8px}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:800px){.links{display:none;position:absolute;top:72px;left:4%;right:4%;padding:18px;background:#0a1b30;border:1px solid #ffffff20;border-radius:14px;flex-direction:column;align-items:stretch}.links.show{display:flex}.menu{display:block}.nav>.btn{display:none}.hero{padding:55px 0}.hero-grid{grid-template-columns:1fr;gap:15px}.network-art{min-height:300px}.orbit{width:280px;height:280px}.orbit.two{width:220px;height:220px}.package-grid,.feature-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}.cta-box{align-items:flex-start;flex-direction:column}.stat strong{font-size:19px}}
+@media(max-width:520px){section{padding:58px 0}.package-grid,.feature-grid,.steps{grid-template-columns:1fr}.stat-grid{gap:0}.stat span{font-size:10px}.stat strong{font-size:18px}.hero h1{letter-spacing:-1.5px}.network-art{min-height:275px}.orbit{width:250px;height:250px}.orbit.two{width:195px;height:195px}.router-card{padding:22px}.cta-box{padding:25px}.brand{font-size:13px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home" aria-label="SKYNET KENYA NETWORK home"><span class="logo"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M8 20c9-9 23-9 32 0M14 26c6-6 14-6 20 0M20 32c2-2 6-2 8 0" stroke="#68e2ff" stroke-width="3.2" stroke-linecap="round"/><circle cx="24" cy="38" r="2.8" fill="#68e2ff"/></svg></span><span>SKYNET KENYA<small>NETWORK • CONNECTIVITY</small></span></a>
+<nav class="links" id="navLinks"><a href="#home">Home</a><a href="#packages">Packages</a><a href="#services">Services</a><a href="#how">How it works</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="#packages">Get Connected ↗</a><button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div>
+<div class="eyebrow"><span class="dot"></span> Your connection. Your way.</div>
+<h1>Reliable internet.<br><span>Made for Kenya.</span></h1>
+<p>Welcome to SKYNET KENYA NETWORK — your local connectivity partner for everyday browsing, streaming, studying and business.</p>
+<div class="hero-actions"><a class="btn" href="#packages">Explore Wi-Fi packages <span>→</span></a><a class="btn secondary" href="#contact">Talk to our team</a></div>
+<div class="mini-points"><span><b class="check">✓</b> Instant M-Pesa STK Push</span><span><b class="check">✓</b> Automated Wi-Fi Vouchers</span><span><b class="check">✓</b> Daraja Integration</span></div>
+</div><div class="network-art" aria-label="Wi-Fi network illustration"><div class="orbit"></div><div class="orbit two"></div><div class="router-card"><div class="wifi-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M8 23C21 11 43 11 56 23M16 32c9-8 23-8 32 0M24 41c5-4 11-4 16 0" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="32" cy="51" r="4" fill="#a8f2ff"/></svg></div><h3>SKYNET KENYA</h3><p>Connecting homes, people & businesses</p><div class="signal"><i></i><i></i><i></i><i></i></div></div></div></div></section>
+<div class="stats"><div class="wrap stat-grid"><div class="stat"><strong>Daraja Connected</strong><span>Safaricom M-Pesa API</span></div><div class="stat"><strong>Instant Vouchers</strong><span>Auto-generated access codes</span></div><div class="stat"><strong>Local Support</strong><span>Direct WhatsApp & Call</span></div></div></div>
+<section class="packages" id="packages"><div class="wrap"><div class="section-head"><div class="kicker">Wi-Fi packages</div><h2>Pick a package that works for you</h2><p>Select a package to pay via M-Pesa STK Push. Enter your Safaricom number and complete the prompt on your phone.</p></div>
+<div class="package-grid">
+<article class="package"><span class="tag">Quick access</span><h3>Starter</h3><div class="price">KSh 10 <small>/ 3 Hours</small></div><p>For quick browsing and messages.</p><ul class="features"><li>3 Hours high-speed access</li><li>Web and social browsing</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Starter — KSh 10">Choose package</button></article>
+<article class="package featured"><span class="tag">Popular choice</span><h3>Daily</h3><div class="price">KSh 20 <small>/ 24 Hours</small></div><p>For everyday browsing and online tasks.</p><ul class="features"><li>24 Hours unlimited session</li><li>Study, streaming & social</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Daily — KSh 20">Choose package</button></article>
+<article class="package"><span class="tag">More time</span><h3>Plus</h3><div class="price">KSh 50 <small>/ 3 Days</small></div><p>For customers who need more access time.</p><ul class="features"><li>3 Full days access period</li><li>Multiple devices supported</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Plus — KSh 50">Choose package</button></article>
+<article class="package"><span class="tag">Value plan</span><h3>Weekly</h3><div class="price">KSh 100 <small>/ 7 Days</small></div><p>A convenient plan for regular users.</p><ul class="features"><li>7 Days continuous access</li><li>Browsing, work and learning</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Weekly — KSh 100">Choose package</button></article>
+<article class="package"><span class="tag">Heavy use</span><h3>Power</h3><div class="price">KSh 200 <small>/ 14 Days</small></div><p>For customers who connect frequently.</p><ul class="features"><li>14 Days validity</li><li>Work, gaming & streaming</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Power — KSh 200">Choose package</button></article>
+<article class="package"><span class="tag">Long-term</span><h3>Monthly</h3><div class="price">KSh 500 <small>/ 30 Days</small></div><p>A longer plan for ongoing connectivity.</p><ul class="features"><li>30 Days full access</li><li>Best value for homes & shops</li><li>Instant M-Pesa STK Push</li></ul><button class="btn choose" data-package="Monthly — KSh 500">Choose package</button></article>
+</div><p class="notice">Connected to Safaricom Daraja M-Pesa Gateway. Real prompts are sent to your mobile phone.</p></div></section>
+<section class="features-section" id="services"><div class="wrap"><div class="section-head"><div class="kicker">What we do</div><h2>Connectivity built around you</h2><p>Internet access and network solutions for homes, shops, institutions and growing businesses.</p></div><div class="feature-grid">
+<div class="feature"><div class="feature-icon">⌁</div><h3>Wi-Fi Hotspot</h3><p>Convenient public or customer Wi-Fi access with package-based sessions.</p></div>
+<div class="feature"><div class="feature-icon">⌂</div><h3>Home & Business Internet</h3><p>Connectivity options designed around your location and usage needs.</p></div>
+<div class="feature"><div class="feature-icon">◉</div><h3>Network Installation</h3><p>Help planning routers, access points and point-to-point wireless links.</p></div>
+<div class="feature"><div class="feature-icon">▤</div><h3>Hotspot Billing</h3><p>Package management and customer access workflows for supported networks.</p></div>
+<div class="feature"><div class="feature-icon">↗</div><h3>M-Pesa STK Integration</h3><p>Direct Lipa Na M-Pesa STK Push for seamless, instantaneous automated confirmation.</p></div>
+<div class="feature"><div class="feature-icon">♧</div><h3>Customer Support</h3><p>Get help choosing a package or troubleshooting a connection 7 days a week.</p></div>
+</div></div></section>
+<section id="how"><div class="wrap"><div class="section-head"><div class="kicker">Get connected</div><h2>Three simple steps</h2><p>Designed to make joining the SKYNET KENYA network straightforward.</p></div><div class="steps"><div class="step"><b>STEP 01</b><h3>Choose a package</h3><p>Compare the available plans and click Choose Package.</p></div><div class="step"><b>STEP 02</b><h3>Authorize M-Pesa</h3><p>Enter your phone number to receive an STK Push PIN prompt on your phone.</p></div><div class="step"><b>STEP 03</b><h3>Get your voucher</h3><p>Your Wi-Fi access voucher code is issued automatically upon payment confirmation.</p></div></div></div></section>
+<div class="cta"><div class="wrap"><div class="cta-box"><div><h2>Ready to get connected?</h2><p>Contact SKYNET KENYA NETWORK for packages, coverage and installation enquiries.</p></div><a class="btn" href="#contact">Contact SKYNET →</a></div></div></div>
+<section id="contact"><div class="wrap"><div class="section-head"><div class="kicker">Contact us</div><h2>Let's get you connected</h2><p>Ask about coverage, packages or network installation.</p></div><div class="contact-grid"><div class="contact-info"><h3>SKYNET KENYA NETWORK</h3><p style="color:#aabdd1">Your connection. Your way.</p><div class="contact-line">Phone / WhatsApp<strong><a href="https://wa.me/254742518141">0742 518 141</a></strong></div><div class="contact-line">M-Pesa Paybill / Till<strong>6370684 / 4707112</strong></div><div class="contact-line">Service area<strong>Kenya — confirm coverage with us</strong></div><p class="small-note">Pay securely through the automated STK push or confirm payment instructions with SKYNET KENYA.</p></div>
+<form class="contact-form" id="contactForm"><div class="field"><label for="name">Your name</label><input id="name" name="name" placeholder="Enter your name" required></div><div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" placeholder="07xx xxx xxx" required></div><div class="field"><label for="interest">What do you need?</label><select id="interest" name="interest"><option>Wi-Fi package</option><option>Check coverage</option><option>Home or business internet</option><option>Network installation</option><option>Technical support</option></select></div><div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us what you need…"></textarea></div><button class="btn" type="submit">Send enquiry on WhatsApp ↗</button><p class="small-note">This opens WhatsApp with your enquiry prepared. It does not send until you press Send in WhatsApp.</p></form></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><div><div class="footer-brand">SKYNET KENYA NETWORK</div><div>Connecting people to what matters.</div></div><div>© <span id="year"></span> SKYNET KENYA. All rights reserved.</div></div></footer>
+
+<!-- Payment Modal with Real Daraja M-Pesa STK Integration -->
+<div class="modal-backdrop" id="paymentModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="modalTitle" style="margin:0">Pay with M-Pesa</h2>
+      <button class="close" id="closeModal" aria-label="Close modal">×</button>
+    </div>
+    <div style="margin:8px 0 14px;font-size:11px;color:#7ee787;display:flex;align-items:center;gap:6px">
+      <span class="dot"></span> Connected to Safaricom Daraja M-Pesa Gateway
+    </div>
+    <p id="selectedPackage" style="color:#bdd0e3;margin:0 0 14px;font-weight:700"></p>
+
+    <!-- Payment Initiation Form -->
+    <form id="paymentForm">
+      <div class="field">
+        <label for="paymentPhone">Safaricom phone number</label>
+        <input id="paymentPhone" name="paymentPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0712345678" required>
+        <small style="color:#8ba2bb;font-size:11px;display:block;margin-top:4px">Accepts: 07xx xxx xxx, 01xx xxx xxx, or 254xxxxxxxxx</small>
+      </div>
+      <button class="btn" id="payButton" type="submit" style="width:100%">Send M-Pesa STK Push</button>
+    </form>
+
+    <!-- Dynamic Status & Feedback Container -->
+    <div id="paymentStatusBox" style="display:none;margin-top:16px;text-align:center">
+      <div id="statusBadge" class="badge-status badge-pending">
+        <span class="pulse-spinner" id="statusSpinner"></span>
+        <span id="statusBadgeText">Waiting for M-Pesa prompt…</span>
+      </div>
+      <div id="paymentMessage" style="font-size:13px;color:#c7d6e8;margin:8px 0"></div>
+
+      <!-- Wi-Fi Voucher Card (Shown on Successful Confirmation) -->
+      <div id="voucherContainer" style="display:none" class="voucher-card">
+        <div class="voucher-label">✓ Active Wi-Fi Access Voucher</div>
+        <div class="voucher-code" id="wifiVoucherCode">SKY-XXXX-XXXX</div>
+        <p style="font-size:12px;color:#8edfff;margin:6px 0" id="paymentReceipt"></p>
+        <button type="button" class="btn" id="copyVoucherBtn" style="padding:8px 16px;font-size:12px;margin-top:6px">Copy Voucher Code</button>
+      </div>
+
+      <!-- Sandbox Developer Simulation Actions -->
+      <div class="sim-box" id="simContainer">
+        <span style="font-size:11px;color:#8ba2bb">Daraja Sandbox testing helper:</span>
+        <div style="display:flex;gap:8px">
+          <button type="button" class="btn secondary" id="simulateApproveBtn" style="flex:1;padding:8px;font-size:12px;border-color:#35d39a66;color:#35d39a">✓ Simulate Approval</button>
+          <button type="button" class="btn secondary" id="simulateCancelBtn" style="flex:1;padding:8px;font-size:12px;border-color:#ff787566;color:#ff7875">✕ Simulate Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="small-note" style="margin-top:16px">
+      A prompt will appear on your Safaricom phone requesting your M-Pesa PIN for SKYNET KENYA. Once confirmed, your Wi-Fi voucher will display above automatically.
+    </p>
+    <a class="btn secondary" style="width:100%;margin-top:12px" id="askWhatsApp" href="https://wa.me/254742518141">Need help? WhatsApp SKYNET ↗</a>
+  </div>
+</div>
+
+<script>
+const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>navLinks.classList.toggle('show'));
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('show')));
+document.getElementById('year').textContent=new Date().getFullYear();
+
+const modal=document.getElementById('paymentModal'),selected=document.getElementById('selectedPackage');
+const paymentForm=document.getElementById('paymentForm');
+const payButton=document.getElementById('payButton');
+const statusBox=document.getElementById('paymentStatusBox');
+const statusBadge=document.getElementById('statusBadge');
+const statusBadgeText=document.getElementById('statusBadgeText');
+const statusSpinner=document.getElementById('statusSpinner');
+const paymentMessage=document.getElementById('paymentMessage');
+const voucherContainer=document.getElementById('voucherContainer');
+const wifiVoucherCode=document.getElementById('wifiVoucherCode');
+const paymentReceipt=document.getElementById('paymentReceipt');
+const simContainer=document.getElementById('simContainer');
+
+const packageMap={
+ 'Starter — KSh 10':'p10',
+ 'Daily — KSh 20':'p20',
+ 'Plus — KSh 50':'p50',
+ 'Weekly — KSh 100':'p100',
+ 'Power — KSh 200':'p200',
+ 'Monthly — KSh 500':'p500'
+};
+
+let chosenPackageId=null, activeOrderId=null, pollTimer=null, pollCount=0;
+
+document.querySelectorAll('.choose').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  const pkg=btn.dataset.package;
+  chosenPackageId=packageMap[pkg]||null;
+  activeOrderId=null;
+  pollCount=0;
+  if(pollTimer)clearTimeout(pollTimer);
+
+  selected.textContent='Selected Plan: '+pkg;
+  paymentMessage.textContent='';
+  paymentReceipt.textContent='';
+  voucherContainer.style.display='none';
+  statusBox.style.display='none';
+  paymentForm.style.display='block';
+  payButton.disabled=false;
+  payButton.textContent='Send M-Pesa STK Push';
+  document.getElementById('paymentPhone').value='';
+
+  modal.classList.add('open');
+  document.getElementById('askWhatsApp').href='https://wa.me/254742518141?text='+encodeURIComponent('Hello SKYNET KENYA, I need help with this Wi-Fi package: '+pkg+'.');
+ });
+});
+
+function closeModal(){
+ modal.classList.remove('open');
+ if(pollTimer)clearTimeout(pollTimer);
+}
+document.getElementById('closeModal').addEventListener('click',closeModal);
+modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+
+function setStatus(type, title, desc){
+ statusBox.style.display='block';
+ statusBadge.className='badge-status badge-'+type;
+ statusBadgeText.textContent=title;
+ paymentMessage.textContent=desc;
+ if(type==='pending'){
+  statusSpinner.style.display='inline-block';
+ } else {
+  statusSpinner.style.display='none';
+ }
+}
+
+async function checkPayment(orderId){
+ if(!orderId)return;
+ pollCount++;
+ try{
+  const r=await fetch('/.netlify/functions/payment-status?orderId='+encodeURIComponent(orderId),{cache:'no-store'});
+  const d=await r.json();
+  if(!r.ok)throw new Error(d.error||'Could not check payment status.');
+
+  if(d.status==='paid'){
+   setStatus('success','Payment Confirmed via M-Pesa','Your transaction was successfully processed by Safaricom.');
+   paymentForm.style.display='none';
+   voucherContainer.style.display='block';
+   wifiVoucherCode.textContent=d.wifi_access_code||'SKYNET-ACTIVE';
+   paymentReceipt.textContent=d.mpesa_receipt_number?'Receipt: '+d.mpesa_receipt_number:'M-Pesa payment verified.';
+   simContainer.style.display='none';
+   return;
+  }
+
+  if(d.status==='failed'){
+   const reason=d.result_desc||'Transaction could not be completed.';
+   setStatus('error','Payment Failed / Cancelled',reason);
+   payButton.disabled=false;
+   payButton.textContent='Try Again';
+   return;
+  }
+
+  // Pending
+  if(pollCount>30){
+   setStatus('pending','Still awaiting M-Pesa confirmation','If you completed the prompt, please wait a moment or verify receipt with support.');
+   payButton.disabled=false;
+   payButton.textContent='Retry STK Push';
+   return;
+  }
+
+  setStatus('pending','STK Prompt Sent to Your Phone','Check your handset and enter your M-Pesa PIN to complete payment.');
+  pollTimer=setTimeout(()=>checkPayment(orderId),3500);
+ }catch(e){
+  console.warn('Status poll warning:',e);
+  if(pollCount<30){
+   pollTimer=setTimeout(()=>checkPayment(orderId),4000);
+  }
+ }
+}
+
+paymentForm.addEventListener('submit',async e=>{
+ e.preventDefault();
+ if(!chosenPackageId){
+  alert('Please select a Wi-Fi package first.');
+  return;
+ }
+ const phoneInput=document.getElementById('paymentPhone');
+ const phone=phoneInput.value.trim();
+ if(!phone){
+  phoneInput.focus();
+  return;
+ }
+
+ payButton.disabled=true;
+ payButton.textContent='Connecting to Daraja…';
+ setStatus('pending','Initiating Daraja STK Push','Communicating with Safaricom M-Pesa gateway…');
+
+ try{
+  const r=await fetch('/.netlify/functions/create-payment',{
+   method:'POST',
+   headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({packageId:chosenPackageId,phone})
+  });
+  const d=await r.json();
+  if(!r.ok)throw new Error(d.error||'Could not initiate payment with M-Pesa.');
+
+  activeOrderId=d.orderId;
+  pollCount=0;
+
+  if(d.status==='paid'){
+   setStatus('success','Payment Confirmed','Payment received and verified.');
+   paymentForm.style.display='none';
+   voucherContainer.style.display='block';
+   wifiVoucherCode.textContent=d.wifi_access_code||'SKYNET-ACTIVE';
+   paymentReceipt.textContent=d.mpesa_receipt_number?'Receipt: '+d.mpesa_receipt_number:'Payment recorded.';
+   simContainer.style.display='none';
+   return;
+  }
+
+  setStatus('pending','STK Prompt Sent!','A prompt has been sent to '+phone+'. Enter your M-Pesa PIN on your phone.');
+  checkPayment(activeOrderId);
+ }catch(err){
+  setStatus('error','Could Not Send Prompt',err.message||'Failed to connect to Daraja. Please check the phone number and try again.');
+  payButton.disabled=false;
+  payButton.textContent='Send M-Pesa STK Push';
+ }
+});
+
+// Simulation buttons for Sandbox Testing
+document.getElementById('simulateApproveBtn').addEventListener('click',async()=>{
+ if(!activeOrderId){
+  alert('Please send an STK prompt first to create an order.');
+  return;
+ }
+ try{
+  const r=await fetch('/.netlify/functions/simulate-payment',{
+   method:'POST',
+   headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({orderId:activeOrderId,action:'approve'})
+  });
+  const d=await r.json();
+  if(!r.ok)throw new Error(d.error||'Simulation failed');
+  if(pollTimer)clearTimeout(pollTimer);
+  checkPayment(activeOrderId);
+ }catch(err){
+  alert(err.message);
+ }
+});
+
+document.getElementById('simulateCancelBtn').addEventListener('click',async()=>{
+ if(!activeOrderId){
+  alert('Please send an STK prompt first to create an order.');
+  return;
+ }
+ try{
+  const r=await fetch('/.netlify/functions/simulate-payment',{
+   method:'POST',
+   headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({orderId:activeOrderId,action:'fail'})
+  });
+  const d=await r.json();
+  if(!r.ok)throw new Error(d.error||'Simulation failed');
+  if(pollTimer)clearTimeout(pollTimer);
+  checkPayment(activeOrderId);
+ }catch(err){
+  alert(err.message);
+ }
+});
+
+// Copy voucher button
+document.getElementById('copyVoucherBtn').addEventListener('click',()=>{
+ const code=wifiVoucherCode.textContent.trim();
+ navigator.clipboard.writeText(code).then(()=>{
+  const btn=document.getElementById('copyVoucherBtn');
+  const prev=btn.textContent;
+  btn.textContent='✓ Copied to Clipboard!';
+  setTimeout(()=>btn.textContent=prev,2000);
+ }).catch(()=>{
+  prompt('Copy your voucher code:',code);
+ });
+});
+
+document.getElementById('contactForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const interest=document.getElementById('interest').value;
+ const msg=document.getElementById('message').value.trim();
+ const text=`Hello SKYNET KENYA NETWORK. My name is ${name}. Phone: ${phone}. Enquiry: ${interest}. Message: ${msg||'Please contact me with more information.'}`;
+ window.open('https://wa.me/254742518141?text='+encodeURIComponent(text),'_blank','noopener');
+});
+</script>
+</body>
+</html>
